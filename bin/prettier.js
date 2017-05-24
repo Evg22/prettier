@@ -245,7 +245,6 @@ if (argv["help"] || (!filepatterns.length && !stdin)) {
       "                           The range will extend forwards to the end of the selected statement.\n" +
       "                           Defaults to Infinity.\n" +
       "  --no-color               Do not colorize error messages.\n" +
-      "  --with-node-modules      Process files inside `node_modules` directory.\n" +
       "  --version or -v          Print Prettier version.\n" +
       "\n"
   );
